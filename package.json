@@ -1,0 +1,26 @@
+{
+    "name": "fairway-wp-child",
+    "version": "1.0.o",
+    "description": "Fairway WP Child Theme",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass-prod": "sass --no-source-map --style=compressed assets/scss/bundle.scss:assets/css/bundle.css assets/scss/blocks.scss:assets/css/blocks.css",
+        "sass-dev": "sass assets/scss/bundle.scss:assets/css/bundle.css assets/scss/blocks.scss:assets/css/blocks.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MRKWP/Nolan-Group-Child-Theme.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MRKWP/fairway-wp-child/issues"
+    },
+    "homepage": "https://github.com/MRKWP/fairway-wp-child#readme",
+    "dependencies": {
+        "sass": "^1.77.2",
+        "gulp": "^4.0.2",
+        "gulp-zip": "^5.1.0"
+    }
+}
