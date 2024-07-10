@@ -19,7 +19,8 @@
     },
     "homepage": "https://github.com/MRKWP/fairway-wp-child#readme",
     "dependencies": {
-        "sass": "^1.77.2"
+        "sass": "^1.77.2",
+        "braces": ">=3.0.3"
     },
     "devDependencies": {
         "braces": ">=3.0.3"
