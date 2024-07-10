@@ -1,6 +1,6 @@
 {
     "name": "fairway-wp-child",
-    "version": "1.0.o",
+    "version": "1.0.0",
     "description": "Fairway WP Child Theme",
     "main": "index.js",
     "scripts": {
@@ -19,8 +19,6 @@
     },
     "homepage": "https://github.com/MRKWP/fairway-wp-child#readme",
     "dependencies": {
-        "sass": "^1.77.2",
-        "gulp": "^4.0.2",
-        "gulp-zip": "^5.1.0"
+        "sass": "^1.77.2"
     }
 }
